@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.2">
+  <Document>
+      <GroundOverlay>
+        <Icon>
+          <href>Wil2_ElevationToolbox_export_FriMar13234750.755565.jpg</href>
+        </Icon>
+        <LatLonBox>
+          <north>9.923366666666666</north>
+          <south>9.922944444444443</south>
+          <east>-84.06300555555555</east>
+          <west>-84.06351944444444</west>
+        </LatLonBox>
+        <name>Wil2_ElevationToolbox_export_FriMar13234750.755565.jpg</name>
+        <drawOrder>1</drawOrder>
+      </GroundOverlay>
+  </Document>
+</kml>
