@@ -10,8 +10,11 @@
 
 /*jshint browser: true, strict: true, undef: true */
 /*global define: false */
+alert("Lo primero que vas a ver 1-Croquis 3D");
+alert("Segundo 2-Posicion exacta del accidente");
 
 
+alert("Tercer 3-fotografias aereas e informe Final");
 (function (window) {
 
   'use strict';
