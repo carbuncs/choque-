@@ -1,7 +1,7 @@
 /*!
  * classie - class helper functions
  * from bonzo https://github.com/ded/bonzo
- * 
+ *
  * classie.has( elem, 'my-class' ) -> true/false
  * classie.add( elem, 'my-new-class' )
  * classie.remove( elem, 'my-unwanted-class' )
@@ -10,14 +10,13 @@
 
 /*jshint browser: true, strict: true, undef: true */
 /*global define: false */
-alert("Lo primero que vas a ver 1-Croquis 3D");
-alert("Segundo 2-Posicion exacta del accidente");
+/*  
 
 
-alert("Tercer 3-fotografias aereas e informe Final");
-(function (window) {
 
-  'use strict';
+ */
+(function(window) {
+  "use strict";
 
   // class helper functions from bonzo https://github.com/ded/bonzo
 
@@ -29,27 +28,27 @@ alert("Tercer 3-fotografias aereas e informe Final");
   // altho to be fair, the api sucks because it won't accept multiple classes at once
   var hasClass, addClass, removeClass;
 
-  if ('classList' in document.documentElement) {
-    hasClass = function (elem, c) {
+  if ("classList" in document.documentElement) {
+    hasClass = function(elem, c) {
       return elem.classList.contains(c);
     };
-    addClass = function (elem, c) {
+    addClass = function(elem, c) {
       elem.classList.add(c);
     };
-    removeClass = function (elem, c) {
+    removeClass = function(elem, c) {
       elem.classList.remove(c);
     };
   } else {
-    hasClass = function (elem, c) {
+    hasClass = function(elem, c) {
       return classReg(c).test(elem.className);
     };
-    addClass = function (elem, c) {
+    addClass = function(elem, c) {
       if (!hasClass(elem, c)) {
-        elem.className = elem.className + ' ' + c;
+        elem.className = elem.className + " " + c;
       }
     };
-    removeClass = function (elem, c) {
-      elem.className = elem.className.replace(classReg(c), ' ');
+    removeClass = function(elem, c) {
+      elem.className = elem.className.replace(classReg(c), " ");
     };
   }
 
@@ -72,12 +71,11 @@ alert("Tercer 3-fotografias aereas e informe Final");
   };
 
   // transport
-  if (typeof define === 'function' && define.amd) {
+  if (typeof define === "function" && define.amd) {
     // AMD
     define(classie);
   } else {
     // browser global
     window.classie = classie;
   }
-
 })(window);
