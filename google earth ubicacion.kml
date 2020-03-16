@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<GroundOverlay id="0EA94920191216D1ECBA">
+		<name>Wil2_Orthomosaic_export_FriMar13234822.758504.tif</name>
+		<drawOrder>1</drawOrder>
+		<Icon>
+			<href>file://earth/Wil2_Orthomosaic_export_FriMar13234822.758504.tif</href>
+		</Icon>
+		<LatLonBox>
+			<north>9.923366666666666</north>
+			<south>9.922986111111111</south>
+			<east>-84.06300555555555</east>
+			<west>-84.06347777777778</west>
+		</LatLonBox>
+	</GroundOverlay>
+</Document>
+</kml>
